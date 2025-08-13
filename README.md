@@ -16,7 +16,7 @@
     - 127.0.0.1 tenant1.test
     - 127.0.0.1 tenant2.test
 
-=> php artisan serve
+=> php artisan serve --host=127.0.0.1 --port=8000
 
 =>Visit:
     - http://tenant1.test:8000/api/users
