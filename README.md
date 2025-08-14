@@ -5,7 +5,7 @@
 - composer install
 - cp .env.example .env
 - configure db name in .env
-- php artisan:key generate
+- php artisan key:generate
 - php artisan migrate
 - php artisan db:seed --class=TenantSeeder
 
